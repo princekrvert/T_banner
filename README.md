@@ -12,7 +12,6 @@ chmod +x *
 
 
 
-Do not copy
 
 
 

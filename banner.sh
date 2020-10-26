@@ -29,6 +29,7 @@ cd usr/etc
 echo "cowsay -f eyes $tagline | lolcat " >> bash.bashrc
 echo "figlet $name | lolcat " >> bash.bashrc
 echo "date | lolcat" >> bash.bashrc
+echo "PS1='\e[33m$name\e[32m'" >> bash.bashrc 
 echo "#alias setup" >> bash.bashrc
 echo 'alias c="clear"' >> bash.bashrc
 echo 'alias up="apt-get update"' >> bash.bashrc

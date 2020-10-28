@@ -5,5 +5,6 @@ cd usr/etc/
 rm -rf bash.bashrc
 cd banner
 mv bash.bashrc ..
+pkg upgrade 
 echo "banner removed..."
                   

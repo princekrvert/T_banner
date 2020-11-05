@@ -2,12 +2,13 @@
 #pkg requirment
 apt-get update
 apt-get upgrade
-apt-get install cowsay
-apt-get install figlet
-apt-get install ruby
-pkg install ruby
-apt-get install curl
-gem install lolcat
+pkg install pv
+apt-get install cowsay | pv
+apt-get install figlet | pv
+apt-get install ruby | pv
+pkg install ruby | pv
+apt-get install curl | pv 
+gem install lolcat | pv
 figlet installing | lolcat
 figlet termux | lolcat
 figlet banner | lolcat

@@ -1,5 +1,7 @@
 # T_banner
 ![Twitter URL](https://img.shields.io/twitter/url?label=follow%20me&style=social&url=https%3A%2F%2Fmobile.twitter.com%2FPrinceK03365733)
+![YouTube Video Views](https://img.shields.io/youtube/views/gQcfdXrOhL8?color=%23ff00ff&style=social)
+
 
 Termux banner 
 

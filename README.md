@@ -1,4 +1,5 @@
 # T_banner
+![Twitter URL](https://img.shields.io/twitter/url?label=follow%20me&style=social&url=https%3A%2F%2Fmobile.twitter.com%2FPrinceK03365733)
 Termux banner 
 
 git clone https://github.com/princekrvert/T_banner.git

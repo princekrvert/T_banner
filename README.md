@@ -4,7 +4,7 @@
 ![GitHub watchers](https://img.shields.io/github/watchers/princekrvert/T_banner?color=%23ff00ff&label=viwer&logoColor=%2300FF00)
 
 
-Termux banner 
+# Termux banner 
 
 git clone https://github.com/princekrvert/T_banner.git
 

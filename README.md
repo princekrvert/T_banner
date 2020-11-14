@@ -5,7 +5,7 @@
 
 
 # Termux banner 
-## New command prompt avilable
+## New command prompt available
 ![20201114_063037](https://user-images.githubusercontent.com/56459297/99134364-612dfc00-2643-11eb-9458-8b6fd3d2934a.jpg)
 
 

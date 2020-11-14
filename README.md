@@ -5,6 +5,7 @@
 
 
 # Termux banner 
+```
 
 git clone https://github.com/princekrvert/T_banner.git
 
@@ -14,7 +15,7 @@ chmod +x *
 
 ./banner.sh
 
-
+```
 
 
 

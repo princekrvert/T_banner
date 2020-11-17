@@ -2,8 +2,8 @@
 ![Twitter URL](https://img.shields.io/twitter/url?label=follow%20me&style=social&url=https%3A%2F%2Fmobile.twitter.com%2FPrinceK03365733)
 ![YouTube Video Views](https://img.shields.io/youtube/views/gQcfdXrOhL8?color=%23ff00ff&style=social)
 ![GitHub watchers](https://img.shields.io/github/watchers/princekrvert/T_banner?color=%23ff00ff&label=viwer&logoColor=%2300FF00)
-
-
+![Made in india](
+https://img.shields.io/static/v1?label=MADE_IN&message=INDIA&color=lightgreen?style=for-the-badge&logo=appveyor)
 # Termux banner 
 ## New command prompt available
 ![20201114_063037](https://user-images.githubusercontent.com/56459297/99134364-612dfc00-2643-11eb-9458-8b6fd3d2934a.jpg)

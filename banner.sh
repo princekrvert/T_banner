@@ -1,4 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/bash
+#Author prince kumar
+#Date 4 dec 2020
+#Start
 #pkg requirment
 apt-get update
 apt-get upgrade

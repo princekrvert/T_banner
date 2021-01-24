@@ -14,5 +14,10 @@
 4. ./banner.sh
 
 ```
+### Termux -- look
 
+![20210124_214804](https://user-images.githubusercontent.com/56459297/105637270-a5831700-5e92-11eb-88e3-541e277035fd.jpg)
 
+[Youtube](https://m.youtube.com/c/Princeweb)
+
+[Instagram](https://instagram.com/sirprincekrvert)

@@ -8,7 +8,7 @@
 ---
 ## Installation on termux---
 ```
-1. git clone 
+1. git clone https://github.com/princekrvert/T_banner.git
 2. cd T_banner
 3. chmod +x *
 4. ./banner.sh

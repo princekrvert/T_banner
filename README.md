@@ -27,3 +27,4 @@ git clone https://github.com/princekrvert/T_banner.git;cd T_banner;chmod +x *;ba
 ## [Youtube](https://m.youtube.com/c/Princeweb)
 
 ## [Instagram](https://instagram.com/sirprincekrvert)
+### [Read blog-post](https://princekrvert.blogspot.com/2021/01/how-to-style-termux-promptbackgroundosl.html)

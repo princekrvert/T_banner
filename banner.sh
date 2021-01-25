@@ -36,6 +36,9 @@ cp_files(){
 	cd usr/etc
 	mkdir backup_TB
 	cp bash.bashrc backup_TB
+	cd 
+	cd T_banner
+
 	
 }
 cp_files
@@ -126,7 +129,7 @@ fi
 #Handle font options------
 add_font(){
 	cd $(pwd)
-	cp -R  font $HOME 
+	cp -R font $HOME 
 	cd $HOME 
 	mv font ..
 	cd ..

@@ -300,7 +300,7 @@ t_property(){
 	cd 
 	cd .termux
 	echo "shortcut.create-session = ctrl + t" >> termux.properties
-	echo "bell-character = beep" >> termux.propeties
+	echo "bell-character = beep" >> termux.properties
 }
 #Let's Ask from user------
 echo -ne "${r}[${g}+${r}] ${w} Press Y for add some extra fetures: "

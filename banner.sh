@@ -69,11 +69,14 @@ set_os(){
 	cd usr/etc
 	os=$1
 	echo -e "neofetch --ascii_distro ${os}" >> bash.bashrc
+	sleep 2
+	cd 
+	cd T_banner
 
 }
 
 #Ask user for set the os-- logo
-echo -ne "${g}[${y}~${g}] ${w} Press Y for Show the os logo(default:N)"
+echo -ne "${g}[${y}~${g}] ${w} Press Y for Show the os logo(default|N): "
 read o_optn #Reading for os option-----
 if [[ $o_optn == "y" || $o_optn == "Y" ]];then
 	echo " "
@@ -93,25 +96,25 @@ if [[ $o_optn == "y" || $o_optn == "Y" ]];then
 	echo -ne "${w}[${g}~${w}] ${y} Select an option: "
 	read os_ch #Readind for os choise---
 	if [[ $os_ch == "1" || $os_ch == "01" ]];then
-		echo "Kali"
+		set_os "Kali"
 	elif [[ $os_ch == "2" || $os_ch == "02" ]];then
-		echo "Android"
+		set_os "Android"
 	elif [[ $os_ch == "3" || $os_ch == "03" ]];then
-		echo "Ubamtu"
+		set_os "Ubamtu"
 	elif [[ $os_ch == "4" || $os_ch == "04" ]];then
-		echo "Gnu"
+		set_os "Gnu"
 	elif [[ $os_ch == "5" || $os_ch == "05" ]];then
-		echo "Arch"
+		set_os "Arch"
 	elif [[ $os_ch == "6" || $os_ch == "06" ]];then
-		echo "Blackarch"
+		set_os "Blackarch"
 	elif [[ $os_ch == "7" || $os_ch == "07" ]];then
-		echo "Parrot"
+		set_os "Parrot"
 	elif [[ $os_ch == "8" || $os_ch == "08" ]];then
-		echo "DragonFly"
+		set_os "DragonFly"
 	elif [[ $os_ch == "9" || $os_ch == "09" ]];then
-		echo "Popos"
+		set_os  "Popos"
 	elif [[ $os_ch == "10" ]];then
-		echo "Last"
+		set_os "Garuda"
 	else
 		echo -e "${r}[${w}!${r}] ${g} Invalid option"
 	fi
@@ -137,6 +140,7 @@ add_font(){
 	cd ~
 	cd ..
 	cd usr/etc
+	
 	echo -e "${w}[${y}+${w}] ${g} Enter text to show: "
 	read name
 	if [[ ${1} == "Bloody" ]];then
@@ -154,6 +158,8 @@ add_font(){
 	else 
 		echo -e "${r} Invalid option "
 	fi
+	cd ~
+	cd T_banner #Return to folder---
 
 }
 #Make a function for add figlet text

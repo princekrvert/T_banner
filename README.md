@@ -6,6 +6,8 @@
 ![GitHub followers](https://img.shields.io/github/followers/princekrvert?style=for-the-badge)
 ![Twitter Follow](https://img.shields.io/twitter/follow/princekrvert?color=%23ff128c&label=%40princekrvert&style=for-the-badge)
 ---
+![20210125_063051](https://user-images.githubusercontent.com/56459297/105649622-f0bf1900-5ed6-11eb-84b6-e4405bfbc3e1.png)
+
 ## Installation on termux---
 ```
 1. git clone https://github.com/princekrvert/T_banner.git

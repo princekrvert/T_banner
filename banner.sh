@@ -28,6 +28,7 @@ req_(){
 	which ruby 2>&1 >> /dev/null || { echo -e "${g}[${r}+${g}] ${y} Installing Ruby" ;apt-get install ruby;gem install lolcat;}
 
 }
+req_
 #Lets make a copy -----
 cp_files(){
 	cd 

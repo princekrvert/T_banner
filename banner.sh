@@ -55,7 +55,7 @@ banner(){
       | |       | . | .'|   |   | -_|  _|
       |_|  _____|___|__,|_|_|_|_|___|_|  
           |_____| ${g} Made by prince 
-     ${r} Youtube https://m.youtube.com/c/Princeweb
+     ${r} Youtube https://is.gd/UQreTd
      ${r} Instagram https://www.instagram.com/sirprincekrvert
 		"
 

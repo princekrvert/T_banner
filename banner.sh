@@ -1,6 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/bash
 #@Author prince 
-#Update at 24 jan 2021
+#Update at 7 may 2021
 #Version 1.2
 #Define some color code----
 r="\e[31;1m"
@@ -33,8 +33,9 @@ req_
 cp_files(){
 	cd 
 	cd ..
-	rm -rf motd
+	
 	cd usr/etc
+        rm -rf motd
 	mkdir backup_TB
 	cp bash.bashrc backup_TB
 	cd 

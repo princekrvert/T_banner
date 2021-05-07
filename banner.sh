@@ -253,7 +253,8 @@ fi
 #Lets change the backgeound---------
 b_ground(){
 	cd $(pwd)
-        
+        cd ~
+        cd T_banner  
 	cp -R b_colors/$1 ~
 	cd ~
         mkdir .termux 

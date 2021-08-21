@@ -20,6 +20,12 @@ user_inttrupt(){
 	sleep 2
 	exit 1
 }
+#Make a function to catch all update ---
+repo_update(){
+	git pull https://github.com/princekrvert/T_banner.git > /dev/null 2>&1
+	clear 
+}
+repo_update
 #Make a function to chech all requirements----
 req_(){
 	which cowsay 2>&1 >> /dev/null  || { echo -e "${g}[${r}+${g}] ${y} Installing Cowsay" ;apt-get install cowsay;}
@@ -326,7 +332,14 @@ elif [[ $e_f == "n" || $e_f == "N" ]];then
 else
 	echo -e "${r}[${y}!${r}] ${pu} Invalid option"
 fi
-
+#Ask user to changr the Font style..
+echo -ne "${r}[${g}+${r}] ${w} Press Y to change the font: "
+read f_c
+if [[ $f_c == "Y" || $f_c == "y" ]];then
+	bash f_change.sh
+elif [[ $f_c == "n" || $f_c == "N" ]];then                      echo " "
+else                                                            echo -e "${r}[${y}!${r}] ${pu} Invalid option"
+fi
 echo -e "${r}-----------${g}Please restart Termux${r}---------"
 
 
